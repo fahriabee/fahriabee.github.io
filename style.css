@@ -1,0 +1,87 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: skyblue;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier';
+    color: #2155CD;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    top: 0;
+    background: lightblue;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px ;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+}
+.product-images{
+        float: left;
+        width: 50%;
+        margin-left: 30px;
+    }
+    }
+.product-desc{
+        float: right;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 30px;
+    }
+.btn{
+    display: inline-block;
+}
+.btn a{
+        background: black;
+        color: white;
+        padding: 20px 40px;
+        display: inline-block;
+            border-radius: 3px;
+        }
+.price{
+    display: inline-block;
+    padding: 0 10px;
+
+}
